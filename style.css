@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(88, 88, 218);
+}
+h2 {
+  color: rgb(180, 217, 230);
+  margin: 0;
+}
+.container {
+  width: 500px;
+  height: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: white;
+}
+.random-jokes {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container button {
+  width: 250px;
+  padding: 9px 6px;
+  font-size: 18px;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  background-color: rgb(148, 105, 189);
+}
+button:focus {
+  outline: none;
+}
